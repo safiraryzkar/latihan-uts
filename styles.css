@@ -1,38 +1,59 @@
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('https://awsimages.detik.net.id/community/media/visual/2021/10/17/serunya-mancing-ikan-kakap-tenggiri-di-perairan-selat-sunda_169.jpeg?w=650&q=80'); /* Ganti dengan URL gambar Anda */
+  background-size: cover; /* Membuat gambar meliputi seluruh latar belakang */
+  background-repeat: no-repeat; /* Mencegah gambar diulang */
+  background-attachment: fixed; /* Membuat gambar tetap terlihat saat menggulir */
 }
 
 .container {
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.8); /* Tambahkan latar belakang putih transparan */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 label, input, button {
   margin: 5px;
+  border-radius: 5px;
 }
 
 button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
+  padding: 10px 20px;
+  background-color: #add8e6; /* Warna biru muda */
+  color: black;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #87cefa; /* Warna biru muda yang sedikit lebih terang saat dihover */
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Tambahkan latar belakang putih transparan */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 th, td {
   border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+  padding: 10px;
+  text-align: center;
 }
 
 th {
   background-color: #f2f2f2;
+}
+
+h1 {
+  background-color: #add8e6; /* Warna biru muda */
+  border-radius: 5px;
+  padding: 10px;
 }
